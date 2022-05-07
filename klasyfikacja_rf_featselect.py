@@ -11,7 +11,7 @@ from sklearn import metrics
 from sklearn.feature_selection import RFECV
 from sklearn.model_selection import StratifiedKFold
 from sklearn.svm import SVR
-
+#proba1
 #import pliku z cechami
 cechy = pd.read_csv(r"cechy.csv", decimal=",", sep=";")
 X = np.array(cechy.drop(cechy.columns[[0, 1]], axis=1))
